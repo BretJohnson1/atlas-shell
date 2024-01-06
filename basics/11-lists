@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la /atlas-shell /root /boot
+ls -la atlas-shell root boot
