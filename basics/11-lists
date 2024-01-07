@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al basics ls -al .. ls -al boot
+ls -la /atlas-shell /boot
