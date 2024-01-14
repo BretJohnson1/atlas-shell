@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(bc -l <<< "ibase=2; obase=10; $BINARY")
