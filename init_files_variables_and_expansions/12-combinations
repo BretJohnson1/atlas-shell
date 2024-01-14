@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr
+printf \"%s\\n\" {a..z}{a..n}{p..z} {a..z}{o}{p..z}
