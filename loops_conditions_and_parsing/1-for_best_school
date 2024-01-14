@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-#while [ $count -lt 10] | echo "Best School"
+#for i in {1..10} | echo "Best School"
