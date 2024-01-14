@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -E'@w=(a..z);map{$w=$_;say"$w$_"for@w}@w;say"oo"'
+echo "$char1$char2"
