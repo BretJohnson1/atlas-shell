@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#building a clock
+hour=0
+while [ $hour -lt 12 ]
+do
+minute=0
+while [ $minute -lt 60 ]
+do
+printf "hour: =+%d minute: =+%d\n" $((hour + 1)) $((minute + 1))
+minute=$((minute+1))
+done
+hour=$((hour+1))
+done
