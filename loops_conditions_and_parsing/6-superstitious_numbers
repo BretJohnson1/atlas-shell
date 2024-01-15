@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #using the while loop again
-i=1
+i=0
 while [ $i -le 19 ];
 do
 i=$(( i+1 ))    
