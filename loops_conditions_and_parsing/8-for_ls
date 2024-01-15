@@ -1,10 +1,19 @@
 #!/usr/bin/env bash
-#using a for loop to display sepcific things
-for file in "$dir"; 
-do
-    if [[ $file != .* ]];
-    then
-	name=${file#*-}
-	echo $name
+#Display information about the "school" file, which include if this file exists, empty, or regular.
+fname="school"
+if [ -e "$fname" ]
+then
+	echo "school file exists"
+	if [ -s "$fname" ]
+	then
+		echo "school file is not empty"
+	else
+		echo "school file is empty"
 	fi
-    done
+	if [ -f "$fname" ]
+	then
+		echo "school is a regular file"
+	fi
+else
+	echo "school file does not exist"
+fi
