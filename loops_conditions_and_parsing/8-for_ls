@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 #using a for loop to display sepcific things
-for i in (1..8) 
+for file in "$dir"; 
 do
-    ls -l
+    if [[ $file != .* ]];
+    then
+	name=${file#*-}
+	echo $name
+	fi
     done
