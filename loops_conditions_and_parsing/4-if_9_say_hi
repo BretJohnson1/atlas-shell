@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#using the while loop to display best school ten times and hi on the ninth line
+i=1
+while [ $i -le 10 ];
+do
+    echo "Best School"
+    i=$(( i+1 ))
+    if [[ $i = 10 ]]
+    then echo "Hi"
+	 fi
+done
